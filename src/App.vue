@@ -7,14 +7,12 @@
       <div class="weather-wrap">
         <div class="location-box">
           <div class="location">North , UK</div>
-          <div class="date"> ondy 10 janjjdhdu 2020 </div>
+          <div class="date">ondy 10 janjjdhdu 2020</div>
         </div>
         <div class="weather-box">
           <div class="temp">9' c</div>
           <div class="weather">Rain</div>
         </div>
-
-
       </div>
     </main>
   </div>
@@ -24,7 +22,11 @@
 export default {
   name: "App",
   data() {
-    // api_key: "4e5a55eb11d0801b5cfb666b5d40c56d"
+    return{
+    api_key: "4e5a55eb11d0801b5cfb666b5d40c56d",
+    uri-base: "https://api.openweathermap.org/data/2.5",
+
+    }
   },
 };
 </script>
@@ -80,32 +82,32 @@ main {
   border-radius: 16px 0px 16p 0px;
 }
 
-.location-box .location{
-  color:#FFF;
+.location-box .location {
+  color: #fff;
   font-size: 32px;
-  font-weight:500;
+  font-weight: 500;
   text-align: center;
   text-shadow: 1px 3px rgba(0, 0, 0, 0.25);
 }
 
-.location-box .date{
-  color:#FFF;
+.location-box .date {
+  color: #fff;
   font-size: 20px;
-  font-weight:300;
+  font-weight: 300;
   font-style: static;
   text-align: center;
 }
 
-.weather-box{
+.weather-box {
   text-align: center;
 }
 
-.weather-box .temp{
+.weather-box .temp {
   display: inline-block;
   padding: 10px 25px;
-  color:#FFF;
+  color: #fff;
   font-size: 102px;
-  font-weight:900;
+  font-weight: 900;
 
   text-shadow: 3px 6px rgb(0, 0, 0, 0.25);
   background-color: rgba(255, 255, 255, 0.25);
@@ -113,17 +115,13 @@ main {
   margin: 30px 0px;
 
   box-shadow: 3px 6px rgba(0, 0, 0, 0.25);
-
 }
 
-
-.weather-box .weather{
-  color:#FFF;
+.weather-box .weather {
+  color: #fff;
   font-size: 48px;
-  font-weight:700;
-    font-style: italic;
+  font-weight: 700;
+  font-style: italic;
   text-shadow: 3px 6px rgb(0, 0, 0, 0.25);
-
 }
-
 </style>
