@@ -22,11 +22,10 @@
 export default {
   name: "App",
   data() {
-    return{
-    api_key: "4e5a55eb11d0801b5cfb666b5d40c56d",
-    uri-base: "https://api.openweathermap.org/data/2.5",
-
-    }
+    return {
+      // api_key: "4e5a55eb11d0801b5cfb666b5d40c56d",
+      // uri-base: "https://api.openweathermap.org/data/2.5",
+    };
   },
 };
 </script>
