@@ -1,24 +1,29 @@
-# weatherapp
+# <center>  weatherapp <center>
 
-## Project setup
+### - Use Tools
+    - Vue Js
+    - open Weather Map API
+
+### - How to Use
+
+- clone the Repo
+
+```shell
+git clone https://github.com/umagol/WeatherApp.git
 ```
+
+- Install Packages
+
+```shell
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+- Run Project
+```shell
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### - Screen Shot
+<br/>
+<img src="./src/assets/screen-shot1.jpg" />
+<br/>
+<img src="./src/assets/screen-shot2.jpg" />
